@@ -100,21 +100,21 @@ This hierarchy of clusters is represented in the form of the dendrogram.
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <h2> :books: References</h2>
 <ul>
-      <li><p>'Regression Model to Predict Bike Sharing Demand'. [Online].</p>
-      <p>Available: https://medium.com/@Nivitus./mobile-price-prediction-using-machine-learning-fa9cab6fb242
+      <li><p>'Netflix Movies / TV Shows: EDA and Clustering'. [Online].</p>
+      <p>Available: https://www.kaggle.com/code/onyonixch/netflix-movies-tv-shows-eda-and-clustering
   </li>
   
-  <li><p>'Random Forest Regression '. [Online].</p>
-      <p>Available:https://towardsdatascience.com/random-forest-regression-5f605132d19d /</p>
+  <li><p>'Netflix Movies and TV Shows recommender using cosine similarity '. [Online].</p>
+      <p>Available:https://medium.com/web-mining-is688-spring-2021/netflix-movies-and-tv-shows-recommender-using-cosine-similarity-e053ee42a85b /</p>
   </li>
-  <li><p>Youtube.com,'Bike Sharing Demand Analysis (Regression) | Machine Learning | Python'. [Online].</p>
-      <p>Available: https://www.youtube.com/watch?v=P77bDN7qAlc&t=545s</p>
+  <li><p>Youtube.com,'Project Akhir AI - (Clustering On Dataset Netflix Movies and TV Shows | Kaggle)'. [Online].</p>
+      <p>Available:https://www.youtube.com/watch?v=RA1EP_inifc</p>
   </li>
-  <li><p>Youtube.com, 'Mobile Price Prediction Kaggle Dataset Analysis | Data Science | ML | Kaggle'. [Online].</p>
-      <p>Available: https://www.youtube.com/watch?v=880YXMnTeu4 </p>
+  <li><p>Youtube.com, 'CLUSTERING DATA dengan metode HIERARCHICAL CLUSTERING Python + Google Colab'. [Online].</p>
+      <p>Available: https://www.youtube.com/watch?v=d320GGtY-3s </p>
   </li>
-  <li><p>End to end Case Study: Bike-sharing demand prediction'. [Online].</p>
-      <p>Available:https://towardsdatascience.com/end-to-end-case-study-bike-sharing-demand-dataset-53201926c8db</p>
+  <li><p>'Netflix Movies and TV Shows'. [Online].</p>
+      <p>Available:https://www.kaggle.com/datasets/shivamb/netflix-shows</p>
   </li>
   
 </ul>
