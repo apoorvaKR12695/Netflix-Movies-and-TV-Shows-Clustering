@@ -1,61 +1,120 @@
-# Netflix-Movies-and-TV-Shows-Clustering
-Unsupervised Machine Learning
 
-Netflix is one of the most popular digital streaming media service providers today. Netflix provides streaming services for movies and tv shows from various countries in the world. As a digital media with many users, Netflix also has a very large amount of data.
-The  dataset consists of listings of all the movies and tv shows available on Netflix, along with details such as - cast, directors, ratings, release year, duration, etc.
-
+</p>
+<h1 align="center"> Netflix-Movies-and-TV-Shows-Clustering </h1>
+<h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
 
 
-In this project, I have done
+![Screenshot (33)](https://user-images.githubusercontent.com/102009481/177919568-3616b07c-f7d2-4d58-bc98-ab10b39fbfee.png)
 
 
-1.Exploratory Data Analysis
-
-2.Understanding what type content is available in different countries
-
-3.Is Netflix increasingly focusing on TV rather than movies in recent years.
-
-4.Clustering similar content by matching text-based features
-
-The following steps are involved in the project 
-
-Data preprocessing
-
-Exploratory Data Analysis
-
-hypothesis testing
-
-feature selection and finding the optimal number of clusters using elbow method fitting the clustering kmean and agglomerative algorithm 
-
-evaluation of clusters using silhouette score and The Davies-Bouldin index (DBI )
-
-conclusion
-
-from elbow and sillhoute score ,optimal of 26 clusters formed , K Means is best for identification than Hierarchical as the evaluation metrics also indicates the same.In kmean cluster 0 has the highest number of datapoints and evenly distributed for other cluster
-
-Netflix has 5372 movies and 2398 TV shows, there are more movies on Netflix than TV shows.
-
-TV-MA has the highest number of ratings for tv shows i,e adult ratings
-
-highest number of movies released in 2017 and 2018 highest number of movies released in 2020 The number of movies on Netflix is growing significantly faster than the number of TV shows. We saw a huge increase in the number of movies and television episodes after 2015. there is a significant drop in the number of movies and television episodes produced after 2020. It appears that Netflix has focused more attention on increasing Movie content than TV Shows. Movies have increased much more dramatically than TV shows
-
-the most content is added to Netflix from october to january
-
-Documentaries are the top most genre in netflix which is followed by standup comedy and Drama and international movies
-
-kids tv is the top most TV show genre in netflix
-
-most of the movies have duration of between 50 to 150
-
-highest number of tv_shows consisting of single season
-
-Those movies that have a rating of NC-17 have the longest average duration.
-
-When it comes to movies having a TV-Y rating, they have the shortest runtime on average
 
 
-united states has the highest number of content on the netflix ,followed by india
 
-india has highest number of movies in netflix
 
-30% movies released on Netflix. 70% movies added on Netflix were released earlier by different mode.
+<p>Netflix Recommender recommends Netflix movies and TV shows based on a user's favorite movie or TV show. It uses a  a K-Means Clustering model to make these recommendations. These models use information about movies and TV shows such as their plot descriptions and genres to make suggestions..</p>
+
+<h2> :floppy_disk: Project Files Description</h2>
+
+
+<p>This Project includes 2 executable files, 1 text files ,1 h5 file as well as 1 directories as follows:</p>
+<h4>Executable Files:</h4>
+<ul>
+  
+  <li><b>Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b> - Includes all functions required for classification operations  and generates the model.h5 file after execution.</li>
+  <li><b>final_individual_notebook_Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b> -  after execution, evaluation is done on the unseen data as in confusion_matrix.txt.</li>
+</ul>
+
+<h4>Output Files:</h4>
+<ul>
+  <li><b>model.h5</b> - Model contains information about the predictions of the train set, continous value.</li>
+  <li><b>result.txt</b> - Contains information about the MSE and adjusted R2 of the test set.</li>
+  
+</ul>
+
+<h4>Source Directories:</h4>
+<ul>
+  <li><b>Dataset</b> - Includes all dataset  for the training phase  and testing phase of the model in the csv format.</li>
+  
+</ul>
+
+
+  
+</ul>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2> :book: Random Forest Regression </h2>
+
+<p> Regression is the other task performed by a random forest algorithm. A random forest regression follows the concept of simple regression. Values of dependent (features) and independent variables are passed in the random forest model.
+
+In a random forest regression, each tree produces a specific prediction. The mean prediction of the individual trees is the output of the regression. This is contrary to random forest classification, whose output is determined by the mode of the decision trees’ class.
+
+Although random forest regression and linear regression follow the same concept, they differ in terms of functions. The function of linear regression is y=bx + c, where y is the dependent variable, x is the independent variable, b is the estimation parameter, and c is a constant. The function of a complex random forest regression is like a blackbox.
+   
+  ![Screenshot (30)](https://user-images.githubusercontent.com/102009481/177840433-ff993854-46d5-4a0f-bc39-941a6e05d1cc.png)
+
+
+<h2> :book: XGboost </h2>
+
+<p> XGBoost is a powerful approach for building supervised regression models. The validity of this statement can be inferred by knowing about its (XGBoost) objective function and base learners. The objective function contains loss function and a regularization term. It tells about the difference between actual values and predicted values, i.e how far the model results are from the real values. The most common loss functions in XGBoost for regression problems is reg:linear, and that for binary classification is reg:logistics. Ensemble learning involves training and combining individual models (known as base learners) to get a single prediction, and XGBoost is one of the ensemble learning methods. XGBoost expects to have the base learners which are uniformly bad at the remainder so that when all the predictions are combined, bad predictions cancels out and better one sums up to form final good predictions.
+
+
+![Screenshot (31)](https://user-images.githubusercontent.com/102009481/177841156-6e6d4692-ef27-40b3-afd6-f84c60442ba2.png)
+
+
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h2> :clipboard: Execution Instruction</h2>
+<p>The order of execution of the program files is as follows:</p>
+
+
+<p><b>1) final_individual_notebook_Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b></p>
+<p> This file must be executed, to define all the functions and variables required for regression operations which leads to the production of the model.h5 file. and to evaluate the model performance on unseen data
+
+
+
+
+
+
+ 
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- CREDITS -->
+<h2 id="credits"> :scroll: Credits</h2>
+
+< Apoorva KR > | Avid Learner | Data Scientist | Machine Learning Engineer | Deep Learning enthusiast
+
+<p> <i> Contact me for Data Science Project Collaborations</i></p>
+
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/apoorva-r-gowda/)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/apoorvaKR12695)
+
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+<h2> :books: References</h2>
+<ul>
+      <li><p>'Regression Model to Predict Bike Sharing Demand'. [Online].</p>
+      <p>Available: https://medium.com/@Nivitus./mobile-price-prediction-using-machine-learning-fa9cab6fb242
+  </li>
+  
+  <li><p>'Random Forest Regression '. [Online].</p>
+      <p>Available:https://towardsdatascience.com/random-forest-regression-5f605132d19d /</p>
+  </li>
+  <li><p>Youtube.com,'Bike Sharing Demand Analysis (Regression) | Machine Learning | Python'. [Online].</p>
+      <p>Available: https://www.youtube.com/watch?v=P77bDN7qAlc&t=545s</p>
+  </li>
+  <li><p>Youtube.com, 'Mobile Price Prediction Kaggle Dataset Analysis | Data Science | ML | Kaggle'. [Online].</p>
+      <p>Available: https://www.youtube.com/watch?v=880YXMnTeu4 </p>
+  </li>
+  <li><p>End to end Case Study: Bike-sharing demand prediction'. [Online].</p>
+      <p>Available:https://towardsdatascience.com/end-to-end-case-study-bike-sharing-demand-dataset-53201926c8db</p>
+  </li>
+  
+</ul>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
