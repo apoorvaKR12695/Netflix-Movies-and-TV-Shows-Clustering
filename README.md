@@ -3,7 +3,6 @@
 <h1 align="center"> Netflix-Movies-and-TV-Shows-Clustering </h1>
 <h3 align="center"> AlmaBetter Verfied Project - <a href="https://www.almabetter.com/"> AlmaBetter School </a> </h5>
 
-
 ![Screenshot (33)](https://user-images.githubusercontent.com/102009481/177919568-3616b07c-f7d2-4d58-bc98-ab10b39fbfee.png)
 
 
@@ -20,14 +19,14 @@
 <h4>Executable Files:</h4>
 <ul>
   
-  <li><b>Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b> - Includes all functions required for classification operations  and generates the model.h5 file after execution.</li>
-  <li><b>final_individual_notebook_Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b> -  after execution, evaluation is done on the unseen data as in confusion_matrix.txt.</li>
+  <li><b>NETFLIX_MOVIES_AND_TV_SHOWS_CLUSTERING.ipynb</b> - Includes all functions required for clustering operations  and generates the model.h5 file after execution.</li>
+  <li><b>final_notebook_NETFLIX_MOVIES_AND_TV_SHOWS_CLUSTERING.ipynb</b> -  after execution, evaluation is done on the unseen data as in no_of_clusters.txt.</li>
 </ul>
 
 <h4>Output Files:</h4>
 <ul>
-  <li><b>model.h5</b> - Model contains information about the predictions of the train set, continous value.</li>
-  <li><b>result.txt</b> - Contains information about the MSE and adjusted R2 of the test set.</li>
+  <li><b>model.h5</b> - Model contains information about the clusters of the train set.</li>
+  <li><b>result.txt</b> - Contains information about the elvatuation of the clusters using silluhoute score .</li>
   
 </ul>
 
@@ -43,23 +42,26 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :book: Random Forest Regression </h2>
+<h2> :book: Kmeans clustering </h2>
 
-<p> Regression is the other task performed by a random forest algorithm. A random forest regression follows the concept of simple regression. Values of dependent (features) and independent variables are passed in the random forest model.
+<p> k-means clustering is a method of vector quantization, originally from signal processing, that aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean (cluster centers or cluster centroid), serving as a prototype of the cluster. This results in a partitioning of the data space into Voronoi cells. k-means clustering minimizes within-cluster variances (squared Euclidean distances), but not regular Euclidean distances, which would be the more difficult Weber problem: the mean optimizes squared errors, whereas only the geometric median minimizes Euclidean distances. For instance, better Euclidean solutions can be found using k-medians and k-medoids.
+  
+  ![Screenshot (34)](https://user-images.githubusercontent.com/102009481/177921083-3eef47d2-43d8-4c87-a027-5aebd7ba7304.png)
 
-In a random forest regression, each tree produces a specific prediction. The mean prediction of the individual trees is the output of the regression. This is contrary to random forest classification, whose output is determined by the mode of the decision trees’ class.
-
-Although random forest regression and linear regression follow the same concept, they differ in terms of functions. The function of linear regression is y=bx + c, where y is the dependent variable, x is the independent variable, b is the estimation parameter, and c is a constant. The function of a complex random forest regression is like a blackbox.
    
-  ![Screenshot (30)](https://user-images.githubusercontent.com/102009481/177840433-ff993854-46d5-4a0f-bc39-941a6e05d1cc.png)
+  
+
+<h2> :book: Agglomerative Hierarchical clustering </h2>
+
+<p> The agglomerative hierarchical clustering algorithm is a popular example of HCA. To group the datasets into clusters, it follows the bottom-up approach. It means, this algorithm considers each dataset as a single cluster at the beginning, and then start combining the closest pair of clusters together. It does this until all the clusters are merged into a single cluster that contains all the datasets.
+
+This hierarchy of clusters is represented in the form of the dendrogram.
+  
+  ![Screenshot (35)](https://user-images.githubusercontent.com/102009481/177921624-6f20d71d-cd54-4d56-a7b3-3e2399c14426.png)
 
 
-<h2> :book: XGboost </h2>
-
-<p> XGBoost is a powerful approach for building supervised regression models. The validity of this statement can be inferred by knowing about its (XGBoost) objective function and base learners. The objective function contains loss function and a regularization term. It tells about the difference between actual values and predicted values, i.e how far the model results are from the real values. The most common loss functions in XGBoost for regression problems is reg:linear, and that for binary classification is reg:logistics. Ensemble learning involves training and combining individual models (known as base learners) to get a single prediction, and XGBoost is one of the ensemble learning methods. XGBoost expects to have the base learners which are uniformly bad at the remainder so that when all the predictions are combined, bad predictions cancels out and better one sums up to form final good predictions.
 
 
-![Screenshot (31)](https://user-images.githubusercontent.com/102009481/177841156-6e6d4692-ef27-40b3-afd6-f84c60442ba2.png)
 
 
 
@@ -70,7 +72,7 @@ Although random forest regression and linear regression follow the same concept,
 <p>The order of execution of the program files is as follows:</p>
 
 
-<p><b>1) final_individual_notebook_Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b></p>
+<p><b>1) final_notebook_NETFLIX_MOVIES_AND_TV_SHOWS_CLUSTERING.ipynb</b></p>
 <p> This file must be executed, to define all the functions and variables required for regression operations which leads to the production of the model.h5 file. and to evaluate the model performance on unseen data
 
 
